@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.port || 8080;
+const port = process.env.PORT || 8080;
 console.log("PROCESS.ENV: ", process.env)
 
 // Middleware to parse JSON bodies
